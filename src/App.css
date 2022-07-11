@@ -1,0 +1,41 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo{
+  /* border: 2px solid; */
+  box-shadow: 0 4px 8px rgb(0,0,0,0.5);
+  padding: 4%;
+  text-align: center;
+}
+.addItem{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.addItem button{
+  width: max-content;
+}
+.incompleteItem{
+  display:flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.incompleteItem input{
+  flex-grow: 1;
+}
+.incompleteItem .item{
+  flex-grow: 7;
+  text-align: center;
+}.incompleteItem .btn{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+button{
+  background-color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  padding: 4%;
+}
